@@ -1,0 +1,63 @@
+@media screen and (max-width: 620px) {
+	body {
+		line-height: 1.4;
+	}
+	.menu_item {
+	    margin: 20px 5px;
+	    width: 30%;
+	}
+	.promo_content {
+		padding: 10px 0;
+	}
+	.promo_content_pic {
+		float: none;
+		width: 100%;
+		height: auto;
+		text-align: none;
+	}
+	.promo_content_project_descr {
+		float: none;
+		width: 100%;
+		height: auto;
+		padding: 10px;
+	}
+	.promo_content_project_descr h2 {
+    	font-size: 25px;
+    	margin-bottom: 10px;
+    }
+	.about h1 {
+    	padding-top: 10px;
+    	font-size: 25px;
+    }
+	.about_text {
+    	margin-bottom: 25px;
+   		padding: 0 50px;
+   	}
+   	.about_item {
+		width: 48%
+	}
+   	.about_item h3 {
+    	font-size: 25px;
+	}
+	.footer {
+		text-align: center;
+	}	
+}
+@media screen and (max-width: 430px) {
+	.menu_item {
+		width: 50%;
+	}
+	.promo_content {
+		padding: 5px 0;
+	}
+	.about_item {
+		float: none;
+		width: 95%
+	}
+	.about_item:last-child {
+		float: none;
+	}
+	.about_item p {
+    	margin-bottom: 25px;
+	}
+}

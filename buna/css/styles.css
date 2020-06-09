@@ -1,0 +1,154 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+body {
+	font-family: arial, sans-serif;
+	background: #f5f5f5;
+	color: #525252;
+	line-height: 2;
+}
+a {
+	text-decoration: none;
+}
+.clearfix::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+}
+.header {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+.logo {
+	font-weight: 700;
+	font-size: 36px;
+	color: #333;
+	margin-bottom: 40px;
+	display: inline-block;
+	background: url(../img/logo.png) no-repeat 50% 0;
+	padding-top: 37px;
+}
+.header_menu ul {
+	list-style: none;
+}
+.menu_item {
+	display: inline-block;
+	margin: 0 15px;
+}
+.menu_item	a {
+	text-decoration: none;
+	font-size: 15px;
+	color: #3b4350;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.promo {
+	background-color: #fff;
+}
+.promo_content {
+	padding: 20px 0;
+}
+.clearfix::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.promo_content_pic {
+	float: right;
+	width: 50%;
+	height: 400px;
+	text-align: center;
+	background-color: #949494;
+}
+.promo_content_pic img {
+	display: inline-block;
+	height: auto;
+	margin-top: 60px;
+}
+.promo_content_project_descr {
+	padding: 100px 0 37px 50px;
+    text-align: center;
+	color: #fff;
+	font-weight: 400;
+	background-color: #4caf50;
+	float: right;
+	width: 50%;
+	height: 400px;
+}
+.promo_content_project_descr h2 {
+	font-size: 36px;
+	font-weight: 400;
+}
+.promo_content_project_descr small {
+	display: block;
+	font-size: 14px;
+}
+.promo_content_project_descr p {
+	font-size: 16px;
+}
+.about {
+	margin-bottom: 70px;
+	text-align: center;
+}
+.about h1 {
+	padding-top: 80px;
+	font-size: 35px;
+	color: #3b4350;
+	font-weight: 400;
+}
+.about_text {
+	margin-bottom: 70px;
+	padding: 0 120px;
+	font-size: 16px;
+	font-weight: 400;
+}
+.about_item {
+	float: left;
+	width: 45%
+}
+.about_item:last-child {
+	float: right;
+}
+.about_item h3 {
+	font-size: 35px;
+	font-weight: 400;
+}
+.about_item p {
+	font-size: 16px;
+	font-weight: 400;
+}
+.about_item_icon {
+	display: inline-block;
+	color: #525252;
+}
+.item_icon {
+	display: block;
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+.cert {
+	background: #4caf50 url(../img/ic-certificate.png)  center center no-repeat;
+}
+.user {
+	background: #4caf50 url(../img/ic-user.png)  center center no-repeat;
+}
+.footer {
+	padding: 20px 0;
+	font-size: 14px;
+	color: #fff;
+	font-weight: 400;
+	text-align: right;
+	background-color: #4caf50;
+}
+.footer a {
+	color: #fff;
+}
